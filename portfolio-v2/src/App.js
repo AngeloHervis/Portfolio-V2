@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
 
 function App() {
   return (
@@ -21,6 +20,8 @@ function App() {
           </div>
         </div>
       </header>
+
+      { /* <!-- HOME SCREEN --> */}
     <div class="Mainbackground" id="home">
       <div class="topBackground"></div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -62,7 +63,7 @@ function App() {
         </div>
       </div>
     </div>
-
+{ /* <!-- SERVICES --> */}
     <div class="section" id="services">
       <div class="container rows">
         <div class="tab">
@@ -355,7 +356,7 @@ function App() {
         </div>
       </div>
     </div>
-
+{ /* <!-- ABOUT --> */}
     <section id="about">
       <div class="container">
         <div class="row">
@@ -397,7 +398,7 @@ function App() {
         </div>
       </div>
     </section>
-
+{ /* <!-- CONTACT ME --> */}
     <div class="contactme" id="contact">
       <div class="contactOverlay">
         <div class="container">
@@ -432,7 +433,7 @@ function App() {
         </div>
       </div>
     </div>
-
+{ /* <!-- RECENT WORK --> */}
     <div class="container" id="blogs">
       <div class="article">
         <h2>Recent Work</h2>
@@ -456,6 +457,7 @@ function App() {
         </div>
       </div>
     </div>
+    { /* <!-- FOOTER --> */}
     <footer>
       <div class="container">
         <div class="footerContainer">
